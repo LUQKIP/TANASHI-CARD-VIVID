@@ -46,11 +46,11 @@ body {
     }
     .name {
         font-size: 4vh;
-        transform: translate(0px, 14vh);
+        margin-top: 20vh;
     }
 
     .Content {
-        margin-top: 120px;
+        margin-top: 1px;
     }
 
     .CS_i {

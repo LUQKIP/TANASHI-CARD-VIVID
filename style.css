@@ -46,7 +46,7 @@ body {
     }
     .name {
         font-size: 4vh;
-        transform: translate(0px, 10vh);
+        transform: translate(0px, 0vh);
     }
 
     .Content {

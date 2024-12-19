@@ -1,38 +1,44 @@
+/* Tambahkan box-sizing untuk kontrol layout */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-color: grey;
+    font-family: Arial, sans-serif; /* Tambahkan font default */
 }
 
 .container {
-    width: 100%;
+    width: 100%; /* Pastikan container mengisi penuh */
     height: 100vh;
     background-color: grey;
 }
-
 
 .profil {
     display: flex;
     justify-content: center;
     height: 30vh;
-    transform: translate(0px, 20px)
+    transform: translate(0px, 60px);
 }
+
 
 .name {
     font-size: 7vh;
-    display: flex;
-    transform: translate(0px, -3vh);
+    margin: 3px;
     color: rgb(100, 183, 255);
-    justify-self: center;
-    font-family: Vampiro One
+    font-family: 'Vampiro One', cursive;
+    text-align: center;
 }
 
 .Content {
     display: flex;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: -40px;
 }
 
-.CS_i {
+.CS_i { /* Gunakan nama kelas kecil */
     border: 1px solid black;
     margin-inline-start: 10px;
     border-radius: 50%;
@@ -42,18 +48,18 @@ body {
 
 @media screen and (max-width: 850px) {
     .profil {
-        transform: translate(0px, 150px);
+        transform: translateY(180px);
     }
     .name {
         font-size: 4vh;
         margin-top: 20vh;
     }
 
-    .Content {
-        margin-top: 1px;
+    .content {
+        margin-top: 100px;
     }
-
-    .CS_i {
+    
+    .cs_i {
         width: 10vh;
         height: 10vh;
     }
